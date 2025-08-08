@@ -1,10 +1,8 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-import Button from "../components/Button";
 import { words } from "../constants";
-import HeroExperience from "../components/hero-models/HeroExperience";
-import AnimatedCounter from "../components/AnimatedCounter";
+import { AnimatedCounter, Button, HeroExperience } from "../components";
 
 const Hero = () => {
   useGSAP(() => {

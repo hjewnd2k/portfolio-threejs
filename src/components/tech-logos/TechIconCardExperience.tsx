@@ -2,10 +2,10 @@ import { Environment, Float, OrbitControls, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { useEffect } from "react";
 import * as THREE from "three";
-import type { techStackIcons } from "../../constants";
+import type { ICardExperience } from "../../types";
 
 type Props = {
-  model: (typeof techStackIcons)[0];
+  model: ICardExperience;
 };
 const TechIconCardExperience = ({ model }: Props) => {
   const scene = useGLTF(model.modelPath);

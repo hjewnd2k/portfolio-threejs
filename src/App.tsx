@@ -1,10 +1,15 @@
-import NavBar from "./components/NavBar";
-import Experience from "./sections/Experience";
-import FeatureCards from "./sections/FeatureCards";
-import Hero from "./sections/Hero";
-import LogoShowcase from "./sections/LogoShowcase";
-import ShowcaseSection from "./sections/ShowcaseSection";
-import TechStack from "./sections/TechStack";
+import { NavBar } from "./components";
+import {
+  Contact,
+  Experience,
+  FeatureCards,
+  Footer,
+  Hero,
+  LogoShowcase,
+  ShowcaseSection,
+  TechStack,
+  Testimonials,
+} from "./sections";
 
 const App = () => {
   return (
@@ -16,6 +21,9 @@ const App = () => {
       <FeatureCards />
       <Experience />
       <TechStack />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </>
   );
 };

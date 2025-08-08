@@ -1,8 +1,8 @@
 import { useRef, type ReactNode } from "react";
-import type { expCards } from "../constants";
+import type { ICard } from "../types";
 
 type Props = {
-  card: (typeof expCards)[0];
+  card: ICard;
   children: ReactNode;
 };
 const GlowCard = ({ card, children }: Props) => {
